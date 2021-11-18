@@ -1,0 +1,116 @@
+
+img {
+    max-width: none;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover { 
+     text-decoration: none;     
+}
+
+input,button:focus {
+    outline:none !important;
+}
+
+.wrapper {
+    padding: 70px;
+}
+.card {
+    margin-top: 20px;
+}
+.card-img-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card_assus {
+     color: whitesmoke;
+     text-decoration: underline;
+     background-color: #9c0294;
+     border: 2px solid #762476;
+     padding-top: 3px;
+     padding-bottom: 3px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 7px;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+
+.card_assus:hover {
+    color: #9c0294;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #762476;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card_assus-block {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.card_price {
+    color: black;
+    background-color: #ffca05;
+    font-weight: 600;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #707271;
+    font-weight: 600;
+}
+.card-link:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #707271;
+    font-weight: 600;
+}
+
+.card_btn {
+width: 100%;
+border-radius: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+border: 2px solid #dfcc66;
+background-color: #ffcc00;
+text-transform: uppercase;
+font-weight: 600;
+color: #4e3000;
+margin-bottom: 20px;
+}
+
+.card_btn:hover {
+    width: 100%;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #dfcc66;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4e3000;
+    margin-bottom: 20px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+
